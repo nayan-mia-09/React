@@ -1,5 +1,5 @@
 import React from 'react'
-import ParentComponents from './components/ParentComponents'
+import ParentComponents from './components/ParentComponent'
 
 const App = () => {
   return (
