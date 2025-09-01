@@ -4,6 +4,7 @@ import Onclick from './components/Onclick'
 import Onchange from './components/Onchange'
 import Parent from './components/Parent'
 import Button from './components/Button'
+import Project from './pages/Project'
 
 const App = () => {
   const handleSave = () =>{
@@ -36,6 +37,9 @@ const App = () => {
       <Button text={"Delete"} color='red' onClick={handleDelete}/>
       <Button text={"Update"} color='orange' onClick={handleUpdate}/>
       <Button text={"Default"}  onClick={() => alert(`Default Button !`)}/>
+        <hr />
+
+        <Project/>
     </div>
   )
 }
