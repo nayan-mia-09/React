@@ -5,6 +5,8 @@ import Onchange from './components/Onchange'
 import Parent from './components/Parent'
 import Button from './components/Button'
 import Project from './pages/Project'
+import ControlledForm from './form/ControlledForm'
+import LoginForm from './form/LoginForm'
 
 const App = () => {
   const handleSave = () =>{
@@ -40,6 +42,11 @@ const App = () => {
         <hr />
 
         <Project/>
+
+        <hr />
+        <ControlledForm/>
+        <hr />
+        <LoginForm/>
     </div>
   )
 }
